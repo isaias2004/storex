@@ -1,0 +1,24 @@
+#header img {
+    width: 200px;
+}
+
+#header {
+    background: #D1F3E7;
+}
+
+main img {
+    width: 100%;
+    height: 300px;
+}
+
+#boton {
+    background: #007EA7;
+}
+
+#footer {
+    background: linear-gradient(140deg,#007ea7,#003249 54%,#007ea7);
+}
+
+#footer a{
+    color:white;
+}
