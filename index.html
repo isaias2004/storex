@@ -60,7 +60,7 @@
             </ul>
           </li>
         </ul>
-        <img id="carrito" href="#" src="images/carrito.png">
+        <a href="#carrito1"><img id="carrito" href="#carrito1" src="images/carrito.png"></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -70,87 +70,33 @@
   </nav>
   <!-- /Header -->
   <!-- Main -->
-  <main>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 mt-4 text-white bg-secondary">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">Store X</h1>
+        <p class="lead my-3">Somos una empresa de ropa que se especializa en la mejor atención al cliente.</p>
+        <p class="lead mb-0"><a href="#footer" class="text-white fw-bold">Ver más...</a></p>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg> -->
-          <img src="images/banner1.jpg">
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Somos Store X.</h1>
-              <p>Una tienda online donde podes agregar al carrito todas tus prendas favoritas.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg> -->
-          <img src="images/banner2.jpg">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Buzos y Camperas.</h1>
-              <p>Buscamos la mejor comodidad para el cliente.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg> -->
-          <img src="images/banner3.png">
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>Prendas unisex</h1>
-              <p>Prendas unisex para todos aquellos que les guste vestir bien.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
     <div class="album py-5 bg-light">
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <img src="images/image1.png">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg> -->
+              <img class="item-image" src="images/image1.png">
               <div class="card-body">
-                <h3 class="card-title">Remeras</h3>
-                <button type="button" class="btn-sm">$850 ARS</button>
+                <h3 class="card-title">Remera</h3>
+                <button type="button" class="item-price">$850 ARS</button>
                 <p class="card-text">Remera de algodón tipo Rusty.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -159,21 +105,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="images/image2.png">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="item-image" src="images/image2.png">
               <div class="card-body">
-                <h3 class="card-title">Remeras</h3>
-                <button type="button" class="btn-sm">$850 ARS</button>
-                <p class="card-text">Remeras de algodón tipo Nike.</p>
+                <h3 class="card-title">Remera</h3>
+                <button type="button" class="item-price">$850 ARS</button>
+                <p class="card-text">Remera de algodón tipo Nike.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -182,21 +127,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image3.png">
+              <img class="item-image" src="images/image3.png">
               <div class="card-body">
-                <h3 class="card-title">Remeras</h3>
-                <button type="button" class="btn-sm">$850 ARS</button>
+                <h3 class="card-title">Remera</h3>
+                <button type="button" class="item-price">$850 ARS</button>
                 <p class="card-text">Remera de algodón tipo Rusty.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -205,21 +149,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image4.png">
+              <img class="item-image" src="images/image4.png">
               <div class="card-body">
-                <h3 class="card-text">Prenda de hombre</h3>
-                <button type="button" class="btn-sm">$1800 ARS</button>
+                <h3 class="card-title">Prenda de hombre</h3>
+                <button type="button" class="item-price">$1800 ARS</button>
                 <p class="card-text">Buzos de algodón tipo Tommy Hilfiger.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -228,21 +171,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image5.png">
+              <img class="item-image" src="images/image5.png">
               <div class="card-body">
-                <h3 class="card-text">Prenda de hombre</h3>
-                <button type="button" class="btn-sm">$1800 ARS</button>
+                <h3 class="card-title">Prenda de hombre</h3>
+                <button type="button" class="item-price">$1800 ARS</button>
                 <p class="card-text">Buzos de algodón tipo Tommy Hilfiger.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -251,21 +193,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image6.png">
+              <img class="item-image" src="images/image6.png">
               <div class="card-body">
-                <h3 class="card-text">Prenda de hombre</h3>
-                <button type="button" class="btn-sm">$1800 ARS</button>
+                <h3 class="card-title">Prenda de hombre</h3>
+                <button type="button" class="item-price">$1800 ARS</button>
                 <p class="card-text">Buzos de algodón tipo Tommy Hilfiger.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -275,21 +216,20 @@
 
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image7.png">
+              <img class="item-image" src="images/image7.png">
               <div class="card-body">
                 <h3 class="card-title">Prenda de dama</h3>
-                <button type="button" class="btn-sm">$2300 ARS</button>
-                <p class="card-text">Buzo de algodon tipo Gap.</p>
+                <button type="button" class="item-price">$2300 ARS</button>
+                <p class="card-text">Buzo de algodón tipo Gap.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -298,21 +238,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image8.png">
+              <img class="item-image" src="images/image8.png">
               <div class="card-body">
                 <h3 class="card-title">Prenda de dama</h3>
-                <button type="button" class="btn-sm">$850 ARS</button>
-                <p class="card-text">Remera de algodon tipo Billabong.</p>
+                <button type="button" class="item-price">$850 ARS</button>
+                <p class="card-text">Remera de algodón tipo Billabong.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -321,21 +260,20 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-              <img src="images/image13.png">
+              <img class="item-image" src="images/image13.png">
               <div class="card-body">
                 <h3 class="card-title">Prenda de hombre</h3>
-                <button type="button" class="btn-sm">$2100 ARS</button>
+                <button type="button" class="item-price">$2100 ARS</button>
                 <p class="card-text">Canguro de hombre tipo Rusty.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">XXL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XL</button>
+                    <button type="button" class="item-size btn btn-sm btn-outline-secondary">XXL</button>
                   </div>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                  <button type="button" class="btn btn-sm btn-outline-secondary addToCart">
                     <img src="images/add.png" width="25px">
                   </button>
                 </div>
@@ -345,29 +283,48 @@
         </div>
       </div>
     </div>
-
+    <section class="shopping-cart">
+      <div class="container">
+        <h1 class="text-center">CARRITO</h1>
+        <hr>
+          <div class="row">
+            <div class="col-4">
+              <div class="shopping-cart-header">
+                <h6>Producto</h6>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="shopping-cart-header">
+                <h6 class="text-truncate">Talle</h6>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="shopping-cart-header">
+                <h6 class="text-truncate">Precio</h6>
+              </div>
+            </div>
+              <div class="col-4">
+                <div class="shopping-cart-header">
+                  <h6 class="text-truncate">Cantidad</h6>
+                </div>
+          </div>
+      </div>
+    </section>
   </main>
   <!-- /Main -->
   <!-- Footer -->
-  <footer class="container py-5 ">
+  <footer id="footer" class="container py-5 ">
     <div class="row">
       <div class="col-12 col-md">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
-          viewBox="0 0 24 24">
-          <title>Product</title>
-          <circle cx="12" cy="12" r="10" />
-          <path
-            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
-        </svg> -->
-        <img src="images/logo-footer.jpg" width="150px"> 
-        <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+        <img src="images/logo-footer.jpg" width="150px">
+        <small class="d-block mb-3 text-muted">&copy; 2019–2021</small>
       </div>
       <div class="col-6 col-md">
         <h5>Contactos</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none">E-mail: Example123@gmail.com</a>
-          <li><a class="link-secondary text-decoration-none" href="https://www.instagram.com/indstorex/" target="_blank">Instagram: @indstorex</a></li>
+          <li><a class="link-secondary text-decoration-none" href="https://www.instagram.com/indstorex/"
+              target="_blank">Instagram: @indstorex</a></li>
           <li><a class="link-secondary text-decoration-none">Cel: 1122334455</a></li>
         </ul>
       </div>
@@ -382,7 +339,9 @@
       <div class="col-6 col-md">
         <h5>¿Quienes Somos?</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">Somos Store X, una empresa de ropa que nace en 2019 con fines de traer la mejor atención al cliente, tenemos prendas recplicadas con la mejor calidad premium del mercado.</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Somos Store X, una empresa de ropa que nace en
+              2019 con fines de traer la mejor atención al cliente, tenemos prendas replicadas con la mejor calidad
+              premium del mercado.</a></li>
         </ul>
       </div>
     </div>
@@ -395,6 +354,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
     crossorigin="anonymous"></script>
+
+  <script src="./tienda.js"></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
