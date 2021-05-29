@@ -24,10 +24,10 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemSize) {
     const shoppingCartContent = `
     <div class="row shoppingCartItem">
         <div class="col-6 align-center">
-            <div class="shopping-cart-item align-items-center h-100 border-bottom border-top pb-2 pt-3">
+            <div class="d-flex justify-content-sm-around shopping-cart-item align-items-center h-100 border-bottom border-top pb-2 pt-3">
                 <img src="${itemImage}" class="shopping-cart-image" width="150px" height="200px">
-                <h6 class="shopping-cart-item-title d-inline shoppingCartItemTitle text-truncate ml-3 mb-0">${itemTitle}</h6>
-                <div class="d-inline">
+                <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate mb-0">${itemTitle}</h6>
+                <div>
                    <button type="button" class="item-size btn btn-outline-secondary">${itemSize}</button>
                 </div>
             </div>
